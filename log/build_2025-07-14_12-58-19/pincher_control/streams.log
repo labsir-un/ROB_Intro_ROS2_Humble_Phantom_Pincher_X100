@@ -1,0 +1,27 @@
+[0.315s] Invoking command in '/Users/amoralesma/prueba-ros/src/pincher_control': AMENT_PREFIX_PATH=/Users/amoralesma/prueba-ros/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/amoralesma/prueba-ros/install/dynamixel_sdk${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(humble) DYLD_LIBRARY_PATH=/Users/amoralesma/prueba-ros/install/dynamixel_sdk/lib PYTHONPATH=/Users/amoralesma/prueba-ros/build/pincher_control/prefix_override:/Users/amoralesma/conda/envs/humble/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/amoralesma/prueba-ros/install/pincher_control/lib/python3.11/site-packages:/Users/amoralesma/prueba-ros/install/dynamixel_sdk/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/amoralesma/conda/envs/humble/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x2 /Users/amoralesma/conda/envs/humble/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_control build --build-base /Users/amoralesma/prueba-ros/build/pincher_control/build install --record /Users/amoralesma/prueba-ros/build/pincher_control/install.log --single-version-externally-managed install_data
+[0.392s] /Users/amoralesma/conda/envs/humble/lib/python3.11/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.392s]   warnings.warn(msg)
+[0.431s] running egg_info
+[0.436s] writing ../../build/pincher_control/pincher_control.egg-info/PKG-INFO
+[0.436s] writing dependency_links to ../../build/pincher_control/pincher_control.egg-info/dependency_links.txt
+[0.436s] writing entry points to ../../build/pincher_control/pincher_control.egg-info/entry_points.txt
+[0.436s] writing requirements to ../../build/pincher_control/pincher_control.egg-info/requires.txt
+[0.436s] writing top-level names to ../../build/pincher_control/pincher_control.egg-info/top_level.txt
+[0.450s] reading manifest file '../../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+[0.451s] writing manifest file '../../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+[0.462s] running build
+[0.462s] running build_py
+[0.462s] copying pincher_control/__init__.py -> /Users/amoralesma/prueba-ros/build/pincher_control/build/lib/pincher_control
+[0.462s] copying pincher_control/control_servo.py -> /Users/amoralesma/prueba-ros/build/pincher_control/build/lib/pincher_control
+[0.463s] running install
+[0.467s] running install_lib
+[0.472s] running install_data
+[0.472s] copying resource/pincher_control -> /Users/amoralesma/prueba-ros/install/pincher_control/share/ament_index/resource_index/packages
+[0.472s] copying package.xml -> /Users/amoralesma/prueba-ros/install/pincher_control/share/pincher_control
+[0.472s] running install_egg_info
+[0.479s] removing '/Users/amoralesma/prueba-ros/install/pincher_control/lib/python3.11/site-packages/pincher_control-0.0.0-py3.11.egg-info' (and everything under it)
+[0.479s] Copying ../../build/pincher_control/pincher_control.egg-info to /Users/amoralesma/prueba-ros/install/pincher_control/lib/python3.11/site-packages/pincher_control-0.0.0-py3.11.egg-info
+[0.480s] running install_scripts
+[0.492s] Installing control_servo script to /Users/amoralesma/prueba-ros/install/pincher_control/lib/pincher_control
+[0.492s] writing list of installed files to '/Users/amoralesma/prueba-ros/build/pincher_control/install.log'
+[0.504s] Invoked command in '/Users/amoralesma/prueba-ros/src/pincher_control' returned '0': AMENT_PREFIX_PATH=/Users/amoralesma/prueba-ros/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/Users/amoralesma/prueba-ros/install/dynamixel_sdk${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(humble) DYLD_LIBRARY_PATH=/Users/amoralesma/prueba-ros/install/dynamixel_sdk/lib PYTHONPATH=/Users/amoralesma/prueba-ros/build/pincher_control/prefix_override:/Users/amoralesma/conda/envs/humble/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/amoralesma/prueba-ros/install/pincher_control/lib/python3.11/site-packages:/Users/amoralesma/prueba-ros/install/dynamixel_sdk/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/amoralesma/conda/envs/humble/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x2 /Users/amoralesma/conda/envs/humble/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_control build --build-base /Users/amoralesma/prueba-ros/build/pincher_control/build install --record /Users/amoralesma/prueba-ros/build/pincher_control/install.log --single-version-externally-managed install_data

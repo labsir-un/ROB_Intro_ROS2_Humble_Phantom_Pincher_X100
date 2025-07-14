@@ -1,0 +1,18 @@
+[0.277s] Invoking command in '/Users/amoralesma/prueba-ros/src/pincher_control': CONDA_PROMPT_MODIFIER=(humble) PYTHONPATH=/Users/amoralesma/prueba-ros/build/pincher_control/prefix_override:/Users/amoralesma/conda/envs/humble/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/amoralesma/prueba-ros/install/pincher_control/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/amoralesma/conda/envs/humble/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x2 /Users/amoralesma/conda/envs/humble/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_control build --build-base /Users/amoralesma/prueba-ros/build/pincher_control/build install --record /Users/amoralesma/prueba-ros/build/pincher_control/install.log --single-version-externally-managed install_data
+[0.347s] /Users/amoralesma/conda/envs/humble/lib/python3.11/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.347s]   warnings.warn(msg)
+[0.382s] error: Multiple top-level packages discovered in a flat-layout: ['resource', 'pincher_control'].
+[0.382s] 
+[0.382s] To avoid accidental inclusion of unwanted files or directories,
+[0.382s] setuptools will not proceed with this build.
+[0.382s] 
+[0.382s] If you are trying to create a single distribution with multiple packages
+[0.382s] on purpose, you should not rely on automatic discovery.
+[0.382s] Instead, consider the following options:
+[0.382s] 
+[0.382s] 1. set up custom discovery (`find` directive with `include` or `exclude`)
+[0.382s] 2. use a `src-layout`
+[0.382s] 3. explicitly set `py_modules` or `packages` with a list of names
+[0.382s] 
+[0.382s] To find more information, look for "package discovery" on setuptools docs.
+[0.392s] Invoked command in '/Users/amoralesma/prueba-ros/src/pincher_control' returned '1': CONDA_PROMPT_MODIFIER=(humble) PYTHONPATH=/Users/amoralesma/prueba-ros/build/pincher_control/prefix_override:/Users/amoralesma/conda/envs/humble/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/amoralesma/prueba-ros/install/pincher_control/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=2 _=/Users/amoralesma/conda/envs/humble/bin/env __CF_USER_TEXT_ENCODING=0x1F5:0x0:0x2 /Users/amoralesma/conda/envs/humble/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pincher_control build --build-base /Users/amoralesma/prueba-ros/build/pincher_control/build install --record /Users/amoralesma/prueba-ros/build/pincher_control/install.log --single-version-externally-managed install_data

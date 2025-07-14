@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/amoralesma/prueba-ros/build/dynamixel_sdk_examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,2 @@
+/Users/amoralesma/conda/envs/humble/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/amoralesma/prueba-ros/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[cctools-port]: generating fake signature for '/Users/amoralesma/prueba-ros/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node'
