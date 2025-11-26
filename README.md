@@ -21,7 +21,7 @@
 
 ## Introducción
 
-Este repositorio, **PhantomX Pincher ROS 2 Control**, ofrece un paquete en Python que facilita el movimiento de los cinco servomotores AX-12A de tu PhantomX Pincher usando ROS 2 Humble. Con él podrás, de manera rápida y sencilla:
+Este repositorio, **PhantomX Pincher ROS 2 Control**, ofrece un paquete en Python que facilita el movimiento de los cinco servomotores AX-12A p XL-430 de tu PhantomX Pincher usando ROS 2 Humble. Con él podrás, de manera rápida y sencilla:
 
 - Configurar y lanzar un nodo ROS 2 (`pincher_control`) desde terminal o VS Code.  
 - Enviar posiciones objetivo a múltiples servos de forma simultánea.  
@@ -30,7 +30,7 @@ Este repositorio, **PhantomX Pincher ROS 2 Control**, ofrece un paquete en Pytho
 
 ## Objetivos
 
-1. **Automatizar el control** de los servomotores AX-12A del PhantomX Pincher mediante un nodo ROS 2.  
+1. **Automatizar el control** de los servomotores AX-12A o XL-430 del PhantomX Pincher mediante un nodo ROS 2.  
 2. **Parametrizar** la conexión (puerto serie y baudios), la lista de IDs de servos y la posición objetivo.  
 3. **Incluir un retardo configurable** para asegurar que los servos alcanzan la posición antes de desactivar el torque.  
 4. **Ofrecer un ejemplo claro** de uso en terminal (`ros2 run …`) y configuración en VS Code.  
@@ -50,7 +50,7 @@ Este repositorio, **PhantomX Pincher ROS 2 Control**, ofrece un paquete en Pytho
 ### Conecta el robot
 
 - Asegúrate de alimentar el bus de Dynamixel (12 V) y conecta el adaptador USB2Dynamixel (U2D2 o FTDI) al PC por `/dev/ttyUSB0` (o similar).
-- Verifica que cada AX-12A tenga un ID único (por defecto suelen venir del 1 al 5).
+- Verifica que cada AX-12A o XL-430 tenga un ID único (por defecto suelen venir del 1 al 5).
 
 ### Instala dependencias ROS 2 y DynamixelSDK
 
